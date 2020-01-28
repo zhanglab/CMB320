@@ -1,4 +1,6 @@
-my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+#raw_my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+raw_my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCaattggccAT"
+my_dna = raw_my_dna.upper()
 replacement1 = my_dna.replace('A', 't')
 print(replacement1)
 replacement2 = replacement1.replace('T', 'a')
@@ -8,5 +10,5 @@ print(replacement3)
 replacement4 = replacement3.replace('G', 'c')
 print(replacement4)
 
-print('  Original DNA: {}'.format(my_dna))
+print('  Original DNA: {}'.format(raw_my_dna))
 print('Complement DNA: {}'.format(replacement4.upper()))
