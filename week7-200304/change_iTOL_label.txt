@@ -1,0 +1,37 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names (displayed in mouseover popups)
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#define a name for an internal node
+#9031|9606,Metazoa
+
+#change the label for leaf nodes 
+P20173.2,Enterococcus faecalis V583
+P21236.1,Streptococcus pneumoniae
+P0A4D5.1,Enterococcus faecalis
+P10738.1,Escherichia coli
+P06573.1,Streptococcus sanguinis
+P02979.1,Staphylococcus aureus
+Q00014.1,Lactobacillus reuteri
+P13978.1,Staphylococcus aureus
+P13956.1,Bacillus subtilis strain
+P13957.1,Staphylococcus aureus
+
